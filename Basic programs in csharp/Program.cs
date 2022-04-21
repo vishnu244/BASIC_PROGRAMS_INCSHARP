@@ -30,6 +30,9 @@ while (true)
         case 5:
             Maximumofthreenumbers MaxOfThree = new();
             MaxOfThree.MaxOfThree();
+        case 6:
+            swapnumbers SwapNumbers = new();
+            SwapNumbers.SwapNumbers();
             break;
         default: 
             break;
