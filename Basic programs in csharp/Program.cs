@@ -7,7 +7,7 @@ Console.WriteLine("Basic programming");
 while (true)
 {
 
-    Console.WriteLine("Choose the Program to be executed :\n1)flipcoinsimulator\n2)leapyear\n3)evenodd\n4)vowelcoonsonent");
+    Console.WriteLine("Choose the Program to be executed :\n1)flipcoinsimulator\n2)leapyear\n3)evenodd\n4)vowelcoonsonent\n5)Maximumofthree");
     int option = Convert.ToInt32(Console.ReadLine());
     switch (option)
     {
@@ -26,6 +26,10 @@ while (true)
         case 4:
             vowelconsonent VowelConsonent = new();
             VowelConsonent.VowelConsosnent();
+            break;
+        case 5:
+            Maximumofthreenumbers MaxOfThree = new();
+            MaxOfThree.MaxOfThree();
             break;
         default: 
             break;
