@@ -11,9 +11,9 @@ namespace Basic_programs_in_csharp
         public void MaxOfThree()
         {
             Console.WriteLine("Enter the values of a ,b and c");
-            var a = Convert.ToDouble(Console.ReadLine());
-            var b = Convert.ToDouble(Console.ReadLine());
-            var c = Convert.ToDouble(Console.ReadLine());
+            double a = Convert.ToDouble(Console.ReadLine());
+            double b = Convert.ToDouble(Console.ReadLine());
+            double c = Convert.ToDouble(Console.ReadLine());
 
             if (a > b)
             {

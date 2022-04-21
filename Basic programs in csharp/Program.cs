@@ -7,7 +7,7 @@ Console.WriteLine("Basic programming");
 while (true)
 {
 
-    Console.WriteLine("Choose the Program to be executed :\n1)flipcoinsimulator\n2)leapyear\n3)evenodd\n4)vowelcoonsonent\n5)Maxofthree\n6)swapnumbers\n7)quotientandremainder\n8)powerof2");
+    Console.WriteLine("Choose the Program to be executed :\n1)flipcoinsimulator\n2)leapyear\n3)evenodd\n4)vowelcoonsonent\n5)Maxofthree\n6)swapnumbers\n7)quotientandremainder\n8)powerof2\n9)HarmonicSeries");
     int option = Convert.ToInt32(Console.ReadLine());
     switch (option)
     {
@@ -42,6 +42,10 @@ while (true)
         case 8:
             Powerof2 PowerOf2 = new();
             PowerOf2.PowerOf2();
+            break;
+        case 9:
+            harmonicseries harmonic = new();
+            harmonic.HarmonicSeries();
             break;
         default: 
             break;
