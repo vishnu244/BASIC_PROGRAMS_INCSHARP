@@ -7,7 +7,7 @@ Console.WriteLine("Basic programming");
 while (true)
 {
 
-    Console.WriteLine("Choose the Program to be executed :\n1)flipcoinsimulator\n2)leapyear");
+    Console.WriteLine("Choose the Program to be executed :\n1)flipcoinsimulator\n2)leapyear\n3)evenodd");
     int option = Convert.ToInt32(Console.ReadLine());
     switch (option)
     {
@@ -18,6 +18,10 @@ while (true)
         case 2:
             Leapyear leapyear = new();
             leapyear.LeapYear();
+            break;
+        case 3:
+            evenodd Evenodd = new();
+            Evenodd.EvenOdd();
             break;
         default: 
             break;
