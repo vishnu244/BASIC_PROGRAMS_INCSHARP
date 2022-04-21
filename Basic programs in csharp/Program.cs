@@ -7,7 +7,7 @@ Console.WriteLine("Basic programming");
 while (true)
 {
 
-    Console.WriteLine("Choose the Program to be executed :\n1)flipcoinsimulator\n2)Leapyear");
+    Console.WriteLine("Choose the Program to be executed :\n1)flipcoinsimulator\n");
     int option = Convert.ToInt32(Console.ReadLine());
     switch (option)
     {
