@@ -7,7 +7,7 @@ Console.WriteLine("Basic programming");
 while (true)
 {
 
-    Console.WriteLine("Choose the Program to be executed :\n1)flipcoinsimulator\n2)leapyear\n3)evenodd");
+    Console.WriteLine("Choose the Program to be executed :\n1)flipcoinsimulator\n2)leapyear\n3)evenodd\n4)vowelcoonsonent");
     int option = Convert.ToInt32(Console.ReadLine());
     switch (option)
     {
@@ -22,6 +22,10 @@ while (true)
         case 3:
             evenodd Evenodd = new();
             Evenodd.EvenOdd();
+            break;
+        case 4:
+            vowelconsonent VowelConsonent = new();
+            VowelConsonent.VowelConsosnent();
             break;
         default: 
             break;
